@@ -64,8 +64,7 @@ fun ProductDetailsScreen(
             }
             Text(
                 text = state.price_sign + state.price,
-                style = MaterialTheme.typography.h6,
-                textAlign = TextAlign.Center
+                style = MaterialTheme.typography.h6
             )
             Text(
                 text = state.description,
