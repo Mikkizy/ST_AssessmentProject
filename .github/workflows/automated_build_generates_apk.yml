@@ -8,8 +8,6 @@ on:
   # Triggers the workflow on push or pull request events but only for default and protected branches
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
@@ -23,10 +21,7 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 17
-
-      - name: Change wrapper permissions
-        run: chmod +x ./gradlew
+          java-version: 1.8
 
       # Run Tests Build
       - name: Run gradle tests
