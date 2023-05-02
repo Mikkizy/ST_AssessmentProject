@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MakeUp</string>
+    <string name="welcome">Welcome!</string>
+    <string name="error">An error occurred!</string>
+    <string name="login">Let\'s Go!</string>
+    <string name="details">Kindly enter your username to access all available products.</string>
+</resources>
